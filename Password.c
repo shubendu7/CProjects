@@ -19,12 +19,12 @@ int main()
         while (1)
         {
             ch = getch();
-            if (ch == 13)
+            if (ch == 13)//ascii of enter(\n)
             {
                 saved_pass[i] = '\0';
                 break;
             }
-            else if (ch == 8)
+            else if (ch == 8)//ascii of backspace
             {
                 if (i > 0)
                 {
